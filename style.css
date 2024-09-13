@@ -18,6 +18,7 @@ header h1 {
     letter-spacing: 0.15px;
 }
 
+/* 'space-between' evenly seperates the items taking up all of the space on the line' */
 p {
     margin: 0;
     display: flex;
@@ -39,6 +40,42 @@ p {
 
 .bold {
     font-weight: 800;
+}
+
+.large {
+    height: 10px;
+}
+
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+
+.small-text {
+    font-size: 0.85rem;
+}
+
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.calories-info span {
+    font-size: 2.4em;
+    font-weight: 700;
+    margin: -7px -2px;
+  }
+
+.calories-info h2 {
+    margin: 0;
+}
+
+
+.left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 
