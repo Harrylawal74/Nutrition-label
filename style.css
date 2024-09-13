@@ -18,11 +18,11 @@ header h1 {
     letter-spacing: 0.15px;
 }
 
-/* 'space-between' pushes that item as far away as possible on the line' */
+/* 'justify-content' aligns items in flexible container that don't use all space on x-axis */
 p {
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 
@@ -64,6 +64,7 @@ p {
     font-size: 0.85rem;
 }
 
+/* 'align-items' aligns vertically*/
 .calories-info {
     display: flex;
     justify-content: space-between;
@@ -97,6 +98,13 @@ p {
 
 .double-indent {
     margin-left: 2em;
+}
+
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
 }
 
 
