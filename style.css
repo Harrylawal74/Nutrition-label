@@ -18,7 +18,7 @@ header h1 {
     letter-spacing: 0.15px;
 }
 
-/* 'space-between' evenly seperates the items taking up all of the space on the line' */
+/* 'space-between' pushes that item as far away as possible on the line' */
 p {
     margin: 0;
     display: flex;
@@ -46,9 +46,18 @@ p {
     height: 10px;
 }
 
+.medium {
+    height: 5px;
+}
+
 .large, .medium {
     background-color: black;
     border: 0;
+}
+
+.right {
+    display: flex;
+    justify-content: right;  
 }
 
 .small-text {
@@ -76,6 +85,18 @@ p {
     margin: -5px -2px;
     font-size: 2em;
     font-weight: 700;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+}
+
+.double-indent {
+    margin-left: 2em;
 }
 
 
